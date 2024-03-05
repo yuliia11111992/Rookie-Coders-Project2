@@ -1,0 +1,360 @@
+.shopping-list-support {
+    display: none;
+  }
+  .shopping-list-loader-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .shopping-list-div {
+    color: #111;
+  }
+  .shopping-list-div {
+    html.dark-mode & {
+      color: #fff;
+    }
+  }
+  .shopping_item {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 85px;
+  }
+  .span-color {
+    color: #4f2ee8;
+  }
+  .empty-shopping-list-main {
+    padding: 80px 55px;
+  }
+  .empty-shopping-list {
+    text-align: center;
+    margin-bottom: 14px;
+    color: #111;
+    html.dark-mode & {
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+  .empty-shopping-list {
+    html.dark-mode & {
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+  .empty-shopping-img {
+    width: 265px;
+    height: 198px;
+  }
+  .js-books.shop {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .book-list {
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    width: 100%;
+    height: 170px;
+    padding: 14px;
+    border: 2px solid;
+    border-radius: 16px;
+    border-color: rgba(79, 46, 232, 0.4);
+    margin-bottom: 20px;
+  }
+  .book-card-img {
+    width: 100px;
+    height: 142px;
+    border: none;
+    border-radius: 8px;
+  }
+  .shop-card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .shop-card-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .shop-list-title {
+    width: 144px;
+    height: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .shop-list-author {
+    width: 100px;
+    font-size: 12px;
+    font-style: italic;
+    color: #b4afaf;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .shop-list-list-name {
+    width: 165px;
+    height: 14px;
+    font-size: 12px;
+    color: #b4afaf;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+  }
+  .remove-shop-list-book {
+    /* position: absolute; */
+    padding: 6px;
+    right: 14px;
+    top: 14px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #4f2ee8;
+  }
+  .shop-list-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.04em;
+    overflow: hidden;
+  }
+  .shop-list-downpart {
+    width: 193px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .shop-list-links {
+    width: 56px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    align-items: center;
+  }
+  .icon-basket-shop-list {
+    color: #ffffff;
+  }
+  .amazon-img {
+    html.dark-mode & {
+      filter: invert(100%) brightness(100%) saturate(0%);
+    }
+  }
+  .amazon-img {
+    filter: grayscale(100%);
+  }
+  .open-book-icon {
+    filter: grayscale(100%);
+  }
+  .amazon-img {
+    width: 48px;
+    height: 15px;
+  }
+  
+  /* tui-pagination styles */
+  .tui-pagination {
+    height: auto;
+    margin: 0;
+    padding-bottom: 40px;
+  }
+  .tui-pagination .tui-page-btn {
+    border-radius: 100%;
+    width: 38px;
+    height: 38px;
+    padding: 12px 14px;
+    color: #111;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    line-height: 1.22222;
+    border: 1px solid #333333;
+    margin-right: 8px;
+  }
+  .tui-pagination .tui-page-btn:hover {
+    html.dark-mode & {
+      background-color: #111;
+    }
+  }
+  .tui-pagination .tui-page-btn {
+    html.dark-mode & {
+      color: #fff;
+      border: 1px solid #fff;
+    }
+  }
+  .tui-pagination .tui-first {
+    margin-right: 5px;
+  }
+  .tui-pagination .tui-prev {
+    margin-right: 14px;
+  }
+  .tui-pagination .tui-last-child {
+    margin-right: 14px;
+  }
+  .tui-pagination .tui-next {
+    margin-left: 0;
+    margin-right: 5px;
+  }
+  .tui-pagination .tui-last {
+    margin-right: 0;
+  }
+  .tui-pagination .tui-is-selected,
+  .tui-pagination strong {
+    color: #fff;
+    background: #111;
+    border-color: #111;
+  }
+  .tui-pagination .tui-is-selected,
+  .tui-pagination strong {
+    html.dark-mode & {
+      color: #111;
+      background: #fff;
+      border-color: #fff;
+    }
+  }
+  .tui-pagination .tui-is-selected:hover {
+    background: #111;
+  }
+  .tui-pagination .tui-is-selected:hover {
+    html.dark-mode & {
+      background: #fff;
+    }
+  }
+  .tui-first,
+  .tui-prev,
+  .tui-next,
+  .tui-last {
+    background: #eac645;
+  }
+  .tui-is-disabled.tui-first,
+  .tui-is-disabled.tui-prev,
+  .tui-is-disabled.tui-next,
+  .tui-is-disabled.tui-last {
+    background: #111;
+  }
+  .tui-is-disabled.tui-first:hover,
+  .tui-is-disabled.tui-prev:hover,
+  .tui-is-disabled.tui-next:hover,
+  .tui-is-disabled.tui-last:hover {
+    background: #111;
+  } /* ================================ */
+  @media screen and (min-width: 768px) {
+    .empty-shopping-list-main {
+      width: 349px;
+      padding-top: 100px;
+      margin-inline: auto;
+    }
+    .empty-shopping-list {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .empty-shopping-list-img {
+      width: 322px;
+      height: 241px;
+    }
+    .js-books-container {
+      margin-bottom: 40px;
+    }
+    .book-list {
+      height: 213px;
+      padding: 24px;
+      gap: 24px;
+    }
+    .book-card-img {
+      width: 116px;
+      height: 165px;
+    }
+    .shop-card-info {
+      gap: 14px;
+    }
+    .shop-list-author {
+      width: auto;
+    }
+    .shop-list-list-name {
+      width: max-content;
+    }
+    .remove-shop-list-book {
+      right: 24px;
+      top: 24px;
+      width: 34px;
+      height: 34px;
+    }
+    .icon-basket-shop-list {
+      width: 18px;
+      height: 18px;
+      margin: auto;
+    }
+    .shop-list-description {
+      width: 508px;
+      height: 53px;
+      margin-bottom: 24px;
+    }
+    .shop-list-title {
+      width: max-content;
+    }
+    .shop-list-downpart {
+      width: auto;
+    }
+    .shop-list-links {
+      width: 92px;
+      height: 27px;
+      gap: 16px;
+    } /* tui-pagination styles */
+    .tui-pagination .tui-page-btn {
+      width: 44px;
+      height: 44px;
+      margin-right: 10px;
+    }
+    .tui-pagination .tui-first {
+      margin-right: 8px;
+    }
+    .tui-pagination .tui-prev {
+      margin-right: 24px;
+    }
+    .tui-pagination .tui-last-child {
+      margin-right: 24px;
+    }
+    .tui-pagination .tui-next {
+      margin-right: 8px;
+    } /* ===================== */
+  }
+  @media screen and (min-width: 1440px) {
+    .shopping-list-support {
+      display: block;
+      padding-top: 76px;
+    }
+    .shopping-container-with-support {
+      display: flex;
+      justify-content: space-around;
+  
+      /* padding-left: 310px; */
+    }
+    .shopping-list-div {
+      margin-left: auto;
+      margin-right: auto;
+      width: 996px;
+      padding-top: 76px;
+    }
+    .shop-list-description {
+      width: 808px;
+    }
+    .shopping_item {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 34px;
+      margin-top: 40px;
+    }
+    .shop-list-links {
+      width: 92px;
+      height: 27px;
+      gap: 16px;
+    }
+  }
